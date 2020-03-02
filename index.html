@@ -15,20 +15,20 @@
 
 <!-- NAVBAR -->
 <header class="navbar navbar-expand navbar-dark fixed-top flex-column flex-md-row bd-navbar" id="mainNav">
-<div class="container">
+<div class="container" style="flex-wrap: wrap">
 	<a href="#intro" style="color: white; font-size: 20px;"><strong>Baptiste Veyrard</strong></a>
 
 	<div class="navbar-nav-scroll" id="navmargin">
 
 		<ul class="navbar-nav bd-navbar-nav flex-row" style="font-size: 20px;">
 			<li class="nav-item">
-				<a class="nav-link" href="#skills">Skills</a>
+				<a class="nav-link" href="#skills">Compétences</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#experiences">Experiences</a>
+				<a class="nav-link" href="#experiences">Expériences</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#education">Education</a>
+				<a class="nav-link" href="#education">Formation</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#contact">Contact</a>
@@ -45,16 +45,16 @@
 		<div class="col-md-6">
 			<h1 class="text-center">Bienvenue sur mon CV en ligne</h1>
 			<br>
-			<p class="text-center">Je m'appel Baptiste.</p>
+			<p class="text-center">Je m'appel Baptiste, bienvenue sur le site web que j'ai créer en HTML/CSS/JS pour en savoir davantage sur moi.</p>
 			<p class="text-center">Je suis à la recherche d'un stage de fin d'étude en tant que Consultant en transformation digitale/système d'information</p>
 		</div>
 	</div>
 </section>
 
-<!-- SECTION 2 (skills)-->
+<!-- SECTION 2 (compétences)-->
 <section id="skills" class="d-flex pt-5" style="background-color: #17A2B8; height: auto; min-height: 400px;">
 	<div class="container">
-		<h1>COMPETENCES</h1>
+		<h1 style="color: white;">COMPETENCES</h1>
 		<div class="row">
 
 			<div onmouseover="myOverFunction1()" onmouseout="myOutFunction1()" class="col-md-3 text-center">
@@ -104,17 +104,16 @@
 		</div>
 
 	</div>
-
 </section>
 
 <!-- SECTION 3 (experiences)-->
 <section id="experiences" style="background-color: white;">
 
-	<h1 class="text-center pt-2 pb-2">Experiences</h1>
+	<h1 class="text-center pt-2 pb-2">EXPERIENCES</h1>
 
 
 	<!-- EXPERIENCE 1 -->
-	<div class="container">
+	<div class="container container-exp">
 		<div class="row align-items-center">
 			<div class="col-md-4 text-center">
 				<img class="img-exp" src="img/agorize.png">
@@ -147,7 +146,7 @@
 		</div>
 	</div>
 		<!-- EXPERIENCE 2 -->
-	<div class="container">
+	<div class="container container-exp">
 		<div class="row align-items-center">
 
 			<div class="col-md-8">
@@ -178,7 +177,7 @@
 		</div>
 	</div>
 	<!-- EXPERIENCE 3 -->
-		<div class="container">
+	<div class="container container-exp">
 
 			<div class="row align-items-center">
 				<div class="col-md-4 text-center">
@@ -213,9 +212,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
+	</div>
 	<!-- EXPERIENCE 4 -->
-	<div class="container">
+	<div class="container container-exp">
 		<div class="row align-items-center">
 
 			<div class="col-md-8">
@@ -246,18 +245,14 @@
 			</div>
 		</div>
 	</div>
-
-
-
-
 </section>
 
 <!-- SECTION 4 (education)-->
 <section id="education" class="pt-5" style="background-color: #17A2B8; height: auto; min-height: 500px;">
 
 	<div class="container">
-		<h1>FORMATION</h1>
-		<div class="row align-items-start">
+		<h1 class="titre" style="color: white;"><strong>FORMATION</strong></h1>
+		<div class="row align-items-start mt-5">
 
 			<div class="col-md-3 text-center">
 				<img class="img-edu rounded-circle" src="img/iut.jpeg" style="width: 40%">
@@ -299,32 +294,38 @@
 		</div>
 		
 	</div>
+</section>
 
+<!-- SECTION 5 (contact)-->
+<section id="contact" style="height: auto;">
+	<div class="container">
+		<h1 style="color: black; margin-bottom: 80px;"><strong>CONTACTEZ-MOI</strong></h1>
+		<div class="row justify-content-center">
+			<div class="col-md-4 text-center">
+				<img src="img/phone.png" class="img-contact">
+				<p>+ 33 6 01 42 XX XX</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<a href="https://www.linkedin.com/in/baptiste-veyrard-6315a5a0/" target="_blank"><img src="img/linkedin.png" class="img-contact"><br><br>
+					<p style="color: black">Retrouvez-moi sur LinkedIn</p></a>
+			</div>
+			<div class="col-md-4 text-center">
+				<a href="mailto: baptiste.veyrard@gmail.com"><img src="img/email.png" class="img-contact"><br/><p style="color: black">Envoyez-moi un email</p></a>
+			</div>
+		</div>
+		
+	</div>
 
+</section>
 
-
-
+<!-- SECTION 6 (info site) -->
+<section id="info_site" style="height: auto; background-color: black">
+	<p class="text-center" style="color: white; font-size: x-large;">Site développé par Baptiste Veyrard en : <strong>HTML, CSS, JS</strong></p>
 </section>
 
 
 
 
-
-
-
-<!-- SECTION 4 (contact)-->
-<section id="contact" style="background-color: green; height: 100vh;">
-
-</section>
-
-
-
-
-
-
-
-
-				<!-- Optional JavaScript -->
 
 				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 				<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
